@@ -1,34 +1,19 @@
 <!-- Animated banner with your name (kept) -->
-<p align="center"><img src="./assets/ai-banner.svg" alt="Affan Khan AI banner" width="100%"/></p>
+<p align="center"><img src="./assets/ai-banner-pro.svg" alt="Affan Khan AI banner" width="100%"/></p>
 
+BEGIN_HERO
 <div align="center">
-  <h3>Hey, I'm Affan Khan 👋</h3>
-
-  <!-- Role badges (kept) -->
-  <img src="https://img.shields.io/badge/Software%20Engineer%20%7C%20AI%2FML%20%7C%20DevOps-24292e?style=for-the-badge" alt="Role"/>
-
   <br/>
+  <a href="https://www.linkedin.com/in/affan-khan9441/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:kaffan9441@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://github.com/kaffan9441?tab=repositories"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <br/><br/>
   <em>Turning ideas into useful tools.</em>
   <br/><br/>
-
-  <!-- Links row (kept) -->
-  <a href="https://www.linkedin.com/in/affan-khan9441/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:kaffan9441@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-333?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  <a href="https://github.com/kaffan9441?tab=repositories">
-    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-
-  <br/><br/>
-
-  <!-- ANIMATED TYPING LINE (restored) -->
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2500&pause=800&center=true&vCenter=true&multiline=true&width=720&lines=Software+Engineering+%40+McMaster;Building+clean+UIs%2C+solid+APIs%2C+and+useful+tools;FPGA+%E2%80%A2+DevOps%20%E2%80%A2%20AI"
-    alt="Animated headline"
-  />
+  <!-- Optional typing line: uncomment the next <img> if you want it -->
+  <!--
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2500&pause=800&center=true&vCenter=true&width=720&lines=Software+Engineering+%40+McMaster;Building+clean+UIs%2C+solid+APIs%2C+and+useful+tools;FPGA+•+DevOps+•+AI" alt="Animated headline"/>
+  -->
 </div>
 
 ---

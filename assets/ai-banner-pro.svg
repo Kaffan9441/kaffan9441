@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" preserveAspectRatio="xMidYMid slice">
+  <!-- Background gradient that slowly shifts -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#302b63;#24243e;#0f0c29" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color" values="#24243e;#0f0c29;#302b63;#24243e" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Title gradient + soft glow -->
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- A shimmering gradient for the title -->
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="50%" stop-color="white" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2"  dur="3.8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <mask id="shineMask"><rect width="100%" height="100%" fill="url(#shine)"/></mask>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <!-- Faint grid for tech feel -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 60 H1600 M0 120 H1600 M0 180 H1600 M0 240 H1600 M0 300 H1600 M0 360 H1600"/>
+    <path d="M100 0 V420 M300 0 V420 M500 0 V420 M700 0 V420 M900 0 V420 M1100 0 V420 M1300 0 V420 M1500 0 V420"/>
+  </g>
+
+  <!-- Layered AI signal waves -->
+  <g fill="none" stroke-width="2">
+    <path id="w1" d="M0,250 C200,210 400,290 600,240 C800,190 1000,290 1200,230 C1400,170 1600,260 1600,260"
+          stroke="#00e5ff" stroke-opacity=".35"/>
+    <path id="w2" d="M0,240 C200,200 400,280 600,230 C800,180 1000,280 1200,220 C1400,160 1600,250 1600,250"
+          stroke="#38bdf8" stroke-opacity=".20"/>
+    <path id="w3" d="M0,260 C200,220 400,300 600,250 C800,200 1000,300 1200,240 C1400,180 1600,270 1600,270"
+          stroke="#a78bfa" stroke-opacity=".15"/>
+    <!-- running highlight -->
+    <use href="#w1" stroke="#00e5ff" stroke-width="4" stroke-opacity=".6"
+         stroke-dasharray="120 600" >
+      <animate attributeName="stroke-dashoffset" from="0" to="-720" dur="6s" repeatCount="indefinite"/>
+    </use>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#00e5ff" opacity=".8">
+    <circle cx="220" cy="280" r="2"><animate attributeName="cy" values="280;270;280" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="410" cy="240" r="2"><animate attributeName="cy" values="240;230;240" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="220" r="2"><animate attributeName="cy" values="220;210;220" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="260" r="2"><animate attributeName="cy" values="260;250;260" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="230" r="2"><animate attributeName="cy" values="230;220;230" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1280" cy="245" r="2"><animate attributeName="cy" values="245;235;245" dur="2.3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Title inside banner -->
+  <g text-anchor="middle" font-family="Inter, ui-sans-serif, -apple-system, Segoe UI, Roboto">
+    <text x="50%" y="56%" font-size="64" font-weight="800" fill="url(#titleGrad)" filter="url(#glow)">Affan Khan</text>
+    <text x="50%" y="56%" font-size="64" font-weight="800" fill="white" mask="url(#shineMask)">Affan Khan</text>
+    <text x="50%" y="69%" font-size="20" fill="#cbd5e1" opacity="0.9">@kaffan9441 • AI/ML • DevOps</text>
+  </g>
+</svg>
