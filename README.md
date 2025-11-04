@@ -1,15 +1,19 @@
-<!-- Top banner (we'll swap this for your custom image in Step 2) -->
-<p align="center"><img src="./assets/ai-banner.svg" alt="Affan Khan AI banner" width="100%"/></p>
-
-<h3 align="center">Hey, I'm Affan Khan 👋</h3>
-
+<!-- Animated banner with your name (kept) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Software%20Engineer%20%7C%20AI%2FML%20%7C%20DevOps-24292e?style=for-the-badge" alt="Role badge"/>
-  <br/>
-  <em>Turning ideas into useful tools.</em>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f0c29,50:302b63,100:24243e&text=Affan%20Khan&fontColor=ffffff&fontAlign=50&fontAlignY=40&fontSize=36&desc=@kaffan9441&descAlign=50&descAlignY=65&animation=twinkling" alt="Affan Khan banner"/>
 </p>
 
-<p align="center">
+<div align="center">
+  <h3>Hey, I'm Affan Khan 👋</h3>
+
+  <!-- Role badges (kept) -->
+  <img src="https://img.shields.io/badge/Software%20Engineer%20%7C%20AI%2FML%20%7C%20DevOps-24292e?style=for-the-badge" alt="Role"/>
+
+  <br/>
+  <em>Turning ideas into useful tools.</em>
+  <br/><br/>
+
+  <!-- Links row (kept) -->
   <a href="https://www.linkedin.com/in/affan-khan9441/">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
@@ -19,7 +23,15 @@
   <a href="https://github.com/kaffan9441?tab=repositories">
     <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
   </a>
-</p>
+
+  <br/><br/>
+
+  <!-- ANIMATED TYPING LINE (restored) -->
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2500&pause=800&center=true&vCenter=true&multiline=true&width=720&lines=Software+Engineering+%40+McMaster;Building+clean+UIs%2C+solid+APIs%2C+and+useful+tools;FPGA+%E2%80%A2+DevOps%20%E2%80%A2%20AI"
+    alt="Animated headline"
+  />
+</div>
 
 ---
 
@@ -58,7 +70,6 @@
 </p>
 
 ### Contributions (animated)
-<!-- This will show once the workflow runs and publishes the SVGs -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake-dark.svg" />
