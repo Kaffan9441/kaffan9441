@@ -1,7 +1,5 @@
 <!-- Animated banner with your name (kept) -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f0c29,50:302b63,100:24243e&text=Affan%20Khan&fontColor=ffffff&fontAlign=50&fontAlignY=40&fontSize=36&desc=@kaffan9441&descAlign=50&descAlignY=65&animation=twinkling" alt="Affan Khan banner"/>
-</p>
+<p align="center"><img src="./assets/ai-banner.svg" alt="Affan Khan AI banner" width="100%"/></p>
 
 <div align="center">
   <h3>Hey, I'm Affan Khan 👋</h3>

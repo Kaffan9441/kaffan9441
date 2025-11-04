@@ -9,18 +9,29 @@
         <animate attributeName="stop-color" values="#24243e;#0f0c29;#302b63;#24243e" dur="12s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
+
+    <!-- title gradient + glow -->
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/><feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
+
   <rect width="100%" height="100%" fill="url(#g)"/>
 
-  <!-- faint grid (tech vibe) -->
+  <!-- faint grid -->
   <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
-    <g>
-      <path d="M0 60 H1600 M0 120 H1600 M0 180 H1600 M0 240 H1600 M0 300 H1600 M0 360 H1600"/>
-      <path d="M100 0 V420 M300 0 V420 M500 0 V420 M700 0 V420 M900 0 V420 M1100 0 V420 M1300 0 V420 M1500 0 V420"/>
-    </g>
+    <path d="M0 60 H1600 M0 120 H1600 M0 180 H1600 M0 240 H1600 M0 300 H1600 M0 360 H1600"/>
+    <path d="M100 0 V420 M300 0 V420 M500 0 V420 M700 0 V420 M900 0 V420 M1100 0 V420 M1300 0 V420 M1500 0 V420"/>
   </g>
 
-  <!-- neural network nodes + edges (animated pulse) -->
+  <!-- neural edges pulsing -->
   <g stroke="#00e5ff" stroke-opacity="0.35">
     <line x1="160" y1="300" x2="360" y2="240">
       <animate attributeName="stroke-opacity" values="0.15;0.6;0.15" dur="4s" repeatCount="indefinite"/>
@@ -42,32 +53,25 @@
     </line>
   </g>
 
+  <!-- neural nodes -->
   <g fill="#00e5ff">
-    <circle cx="160" cy="300" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="360" cy="240" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="560" cy="180" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="760" cy="220" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="960" cy="160" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1160" cy="210" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1360" cy="150" r="2">
-      <animate attributeName="r" values="2;3;2" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="160" cy="300" r="2"><animate attributeName="r" values="2;3;2" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="240" r="2"><animate attributeName="r" values="2;3;2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="180" r="2"><animate attributeName="r" values="2;3;2" dur="2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="220" r="2"><animate attributeName="r" values="2;3;2" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="160" r="2"><animate attributeName="r" values="2;3;2" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="210" r="2"><animate attributeName="r" values="2;3;2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1360" cy="150" r="2"><animate attributeName="r" values="2;3;2" dur="2.2s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- soft vertical glow sweep -->
+  <!-- soft glow sweep -->
   <rect x="-400" y="0" width="400" height="420" fill="#00e5ff" opacity="0.05">
     <animate attributeName="x" values="-400;1800" dur="12s" repeatCount="indefinite"/>
   </rect>
+
+  <!-- TITLE & HANDLE IN THE BANNER -->
+  <g text-anchor="middle" font-family="Inter, ui-sans-serif, -apple-system, Segoe UI, Roboto">
+    <text x="50%" y="55%" font-size="64" font-weight="800" fill="url(#titleGrad)" filter="url(#glow)">Affan Khan</text>
+    <text x="50%" y="67%" font-size="20" fill="#cbd5e1" opacity="0.9">@kaffan9441</text>
+  </g>
 </svg>
