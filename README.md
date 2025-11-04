@@ -1,7 +1,6 @@
 <!-- Animated banner with your name (kept) -->
 <p align="center"><img src="./assets/ai-banner-pro.svg" alt="Affan Khan AI banner" width="100%"/></p>
 
-BEGIN_HERO
 <div align="center">
   <br/>
   <a href="https://www.linkedin.com/in/affan-khan9441/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
