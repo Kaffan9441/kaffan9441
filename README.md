@@ -5,8 +5,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=3000&pause=1000&color=F7C9CC&center=true&vCenter=true&width=800&height=100&lines=AFFAN+KHAN;Machine+Learning+Engineer;AI+Developer+%26+Researcher;Prism+%26+EVIDEX+Creator;Python+%7C+TensorFlow+%7C+PyTorch;Building+Intelligent+Systems" alt="Typing SVG" />
-</a>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=42&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=AFFAN+KHAN;Machine+Learning+Engineer;AI+Developer+%26+Researcher;Prism+%26+EVIDEX+Creator;Python+%7C+TensorFlow+%7C+PyTorch;Building+Intelligent+Systems" alt="Typing SVG" />
+</a></a>
 
 <img src="https://komarev.com/ghpvc/?username=Kaffan9441&label=PROFILE+VIEWS&color=940128&style=for-the-badge" alt="Profile Views" />
 
