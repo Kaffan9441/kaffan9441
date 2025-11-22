@@ -1,0 +1,23 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="prism-gradient" x1="100" y1="400" x2="412" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" /> <!-- blue-600 -->
+      <stop offset="50%" stop-color="#4F46E5" /> <!-- indigo-600 -->
+      <stop offset="100%" stop-color="#9333EA" /> <!-- purple-600 -->
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main Prism Shape (Triangle) -->
+  <path d="M256 80 L432 400 H80 Z" fill="url(#prism-gradient)" stroke="none" />
+  
+  <!-- Refraction Line (White overlay) -->
+  <path d="M256 80 L300 250 L432 400" stroke="white" stroke-width="4" stroke-opacity="0.3" fill="none" />
+  <path d="M256 80 L180 280 L80 400" stroke="white" stroke-width="4" stroke-opacity="0.2" fill="none" />
+  
+  <!-- Internal Facet -->
+  <path d="M256 80 L256 350" stroke="white" stroke-width="2" stroke-opacity="0.1" />
+</svg>
