@@ -82,13 +82,17 @@
 </table>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                      ISOMETRIC DATA LAYER                                   -->
+<!--                      LANGUAGE & ACTIVITY ANALYTICS                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">📊 ISOMETRIC COMMIT CALENDAR</h2>
+<h2 style="color: #f7c9cc;">📊 CODE ANALYTICS</h2>
 
-<img src="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/metrics/metrics.svg" alt="Isometric Metrics" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaffan9441&layout=compact&hide_border=true&bg_color=00000000&title_color=f7c9cc&text_color=ffffff&icon_color=940128&langs_count=8" alt="Top Languages" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaffan9441&bg_color=27060f&color=f7c9cc&line=940128&point=f7c9cc&area=true&hide_border=true" alt="Activity Graph" width="100%" />
 
 </div>
 
