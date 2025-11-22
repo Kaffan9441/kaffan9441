@@ -17,7 +17,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">⚡ COMMAND CENTER</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">⚡ COMMAND CENTER</h2>
 
 <table border="0" width="100%">
   <tr>
@@ -37,7 +37,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">🎯 FEATURED PROJECTS</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🎯 FEATURED PROJECTS</h2>
 </div>
 
 <table width="100%" border="0">
@@ -86,7 +86,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">📊 CODE ANALYTICS</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">📊 CODE ANALYTICS</h2>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaffan9441&layout=compact&hide_border=true&bg_color=00000000&title_color=f7c9cc&text_color=ffffff&icon_color=940128&langs_count=8" alt="Top Languages" />
 
@@ -101,7 +101,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">🛠️ AI/ML TECHNOLOGY STACK</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🛠️ AI/ML TECHNOLOGY STACK</h2>
 
 <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,fastapi,gcp,docker,git,github,vscode&theme=dark" alt="Tech Stack" />
 
@@ -119,7 +119,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">🐍 CONTRIBUTION GRAPH</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🐍 CONTRIBUTION GRAPH</h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake-dark.svg">
@@ -134,7 +134,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-<h2 style="color: #f7c9cc;">🔗 CONNECT</h2>
+<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🔗 CONNECT</h2>
 
 <a href="mailto:your-email@example.com">
   <img src="https://img.shields.io/badge/Email-940128?style=for-the-badge&logo=gmail&logoColor=f7c9cc" alt="Email" />
