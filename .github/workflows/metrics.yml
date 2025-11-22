@@ -16,7 +16,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          user: kaffan
+          user: Kaffan9441
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
