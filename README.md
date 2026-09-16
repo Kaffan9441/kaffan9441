@@ -1,153 +1,96 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                         HEADER: ANIMATED TYPING                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+# Affan Khan
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=42&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=AFFAN+KHAN;Machine+Learning+Engineer;AI+Developer+%26+Researcher;Prism+%26+EVIDEX+Creator;Python+%7C+TensorFlow+%7C+PyTorch;Building+Intelligent+Systems" alt="Typing SVG" />
-</a></a>
+### Software Engineering @ McMaster · AI/ML · iOS & full-stack development
 
-<img src="https://komarev.com/ghpvc/?username=Kaffan9441&label=PROFILE+VIEWS&color=940128&style=for-the-badge" alt="Profile Views" />
+Co-founder & CTO at **FlightReady AI**. Building **Argus**, **PRISM**, and practical AI tools.
+
+[LinkedIn](https://linkedin.com/in/affan-khan9441) · [Email](mailto:kaffan9441@gmail.com) · [Argus](https://buildargus.dev)
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                        COMMAND CENTER: STATS GRID                           -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+## Featured projects
 
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">⚡ COMMAND CENTER</h2>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<table border="0" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=Kaffan9441&show_icons=true&hide_border=true&bg_color=00000000&title_color=f7c9cc&text_color=ffffff&icon_color=940128&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com?user=Kaffan9441&theme=dark&hide_border=true&background=00000000&ring=940128&fire=940128&currStreakLabel=f7c9cc&sideLabels=f7c9cc&dates=ffffff" alt="GitHub Streak" />
-    </td>
-  </tr>
+### ✈️ FlightReady AI
+
+**An aviation copilot for iOS.**
+
+Voice-driven checklists, aircraft-aware AI assistance, weight and balance calculations, emergency procedures, and a flight logbook. I lead the engineering and architecture as co-founder and CTO.
+
+**Swift · SwiftUI · Supabase · Gemini · OpenAI TTS**
+
+<sub>Private source repository</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ◉ Argus
+
+**Turn a website into a working React app.**
+
+An AI development platform built with Sammy Tourani, featuring website reconstruction, live sandbox previews, multiple model providers, and automatic recovery from build and runtime errors.
+
+**Next.js · TypeScript · React · E2B · Supabase**
+
+[Explore Argus →](https://buildargus.dev)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💎 PRISM
+
+**AI tools for learning and tutoring.**
+
+From turning student work into adaptive practice problems to managing tutoring sessions, AI-assisted notes, parent communication, and QR check-ins.
+
+**Next.js · TypeScript · Google AI · Supabase**
+
+[Adaptive practice →](https://github.com/Kaffan9441/PRISM) · [Tutoring platform →](https://github.com/Kaffan9441/PRISMAI)
+
+</td>
+<td width="50%" valign="top">
+
+### ⚖️ EVIDEX
+
+**AI-assisted legal document analysis.**
+
+Extracts text with Google Cloud Vision OCR and uses DeepSeek to help analyze legal documents, with a Python backend and a Next.js interface.
+
+**Python · FastAPI · Next.js · Google Cloud Vision · DeepSeek**
+
+[Explore the repository →](https://github.com/Kaffan9441/EVIDEX)
+
+</td>
+</tr>
 </table>
 
-</div>
+## Tools I work with
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                          FEATURED PROJECTS                                   -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+**Languages:** Python, TypeScript, Swift, SQL<br>
+**Apps:** Next.js, React, SwiftUI, FastAPI<br>
+**AI & infrastructure:** PyTorch, TensorFlow, Google AI, OpenAI, Supabase, Docker, E2B
 
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🎯 FEATURED PROJECTS</h2>
-</div>
+## GitHub activity
 
-<table width="100%" border="0">
-  <tr>
-    <td width="50%" valign="top">
-      <div align="center">
-        <a href="https://github.com/Kaffan9441/Prism">
-          <img src="./assets/prism-logo.svg" width="100" alt="Prism Logo" />
-        </a>
-        <h3 style="color: #f7c9cc;">💎 PRISM</h3>
-        <p><i>Visual intelligence, refined.</i></p>
-      </div>
-      <p align="left">
-        A next-generation visual intelligence platform combining Google Cloud Vision and Tesseract.js for complex data extraction. Enhanced by Google's Generative AI for deep contextual understanding.
-      </p>
-      <div align="left">
-        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=f7c9cc" />
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=940128" />
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <div align="center">
-        <a href="https://github.com/Kaffan9441/EVIDEX">
-          <img src="./assets/evidex-logo.ico" width="100" alt="EVIDEX Logo" />
-        </a>
-        <h3 style="color: #f7c9cc;">👁️ EVIDEX</h3>
-        <p><i>Evidence indexed, intelligence expanded.</i></p>
-      </div>
-      <p align="left">
-        Advanced legal document analysis platform designed for professionals. Streamlines complex workflows by extracting text and generating actionable insights using DeepSeek LLM.
-      </p>
-      <div align="left">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQLModel-000000?style=flat-square&logo=sqlite&logoColor=white" />
-        <img src="https://img.shields.io/badge/AI-DeepSeek_LLM-940128?style=flat-square" />
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" />
-      </div>
-    </td>
-  </tr>
-</table>
+<picture>
+  <img src="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/metrics/metrics.svg" alt="GitHub profile metrics, contribution calendar, and languages" width="100%">
+</picture>
 
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                      LANGUAGE & ACTIVITY ANALYTICS                          -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<sub>Metrics refresh daily. Language statistics describe repository code, not proficiency.</sub>
 
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">📊 CODE ANALYTICS</h2>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaffan9441&layout=compact&hide_border=true&bg_color=00000000&title_color=f7c9cc&text_color=ffffff&icon_color=940128&langs_count=8" alt="Top Languages" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaffan9441&bg_color=27060f&color=f7c9cc&line=940128&point=f7c9cc&area=true&hide_border=true" alt="Activity Graph" width="100%" />
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                         TECHNOLOGY STACK                                     -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🛠️ AI/ML TECHNOLOGY STACK</h2>
-
-<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,fastapi,gcp,docker,git,github,vscode&theme=dark" alt="Tech Stack" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-<img src="https://img.shields.io/badge/Google_AI-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google AI" />
-<img src="https://img.shields.io/badge/DeepSeek-940128?style=for-the-badge&logoColor=white" alt="DeepSeek" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face" />
-
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                    LIVING FOOTER: SNAKE ANIMATION                           -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🐍 CONTRIBUTION GRAPH</h2>
+### Contribution calendar
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake.svg">
+  <img alt="Animated contribution calendar" src="https://raw.githubusercontent.com/Kaffan9441/kaffan9441/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-</div>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--                         SOCIAL LINKS                                         -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-<h2 style="color: #ffffff; text-shadow: 2px 2px 4px #940128;">🔗 CONNECT</h2>
-
-<a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email-940128?style=for-the-badge&logo=gmail&logoColor=f7c9cc" alt="Email" />
-</a>
-<a href="https://linkedin.com/in/yourprofile">
-  <img src="https://img.shields.io/badge/LinkedIn-940128?style=for-the-badge&logo=linkedin&logoColor=f7c9cc" alt="LinkedIn" />
-</a>
-<a href="https://github.com/Kaffan9441">
-  <img src="https://img.shields.io/badge/GitHub-940128?style=for-the-badge&logo=github&logoColor=f7c9cc" alt="GitHub" />
-</a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Made_with-❤️_and_Burgundy-940128?style=for-the-badge&logoColor=f7c9cc" alt="Made with Love" />
-
-</div>
+<sub>Calendar animation refreshes every six hours. See the native contribution graph below for GitHub's latest counts.</sub>

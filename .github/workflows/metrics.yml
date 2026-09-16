@@ -1,35 +1,46 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule:
+    - cron: '23 7 * * *'
   workflow_dispatch:
-  # (optional) Run on each push on the master branch
-  push: {branches: ["master", "main"]}
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update_metrics.py
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 5
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Kaffan9441
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/New_York
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-          plugin_stars: yes
-          plugin_stars_limit: 4
-          config_order: base.header, isocalendar, languages, stars
-          output_action: commit
-          committer_branch: metrics
-          committer_message: "Update metrics"
-          filename: metrics.svg
+          fetch-depth: 0
+      - name: Generate aggregate profile metrics
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_metrics.py
+      - name: Publish metrics
+        env:
+          METRICS_WORKTREE: ${{ runner.temp }}/profile-metrics
+        run: |
+          git fetch origin metrics
+          git worktree add --detach "$METRICS_WORKTREE" origin/metrics
+          cp .generated/metrics.svg "$METRICS_WORKTREE/metrics.svg"
+          cd "$METRICS_WORKTREE"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add metrics.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh profile metrics'
+            git push origin HEAD:metrics
+          fi
